@@ -1,0 +1,44 @@
+// Patterns and variables for song sections /////
+
+.intro {
+  border: solid 3px $nord-purple;
+}
+.intro .top {
+  border-bottom: solid 6px $nord-purple;
+}
+.verse {
+  border: solid 3px $nord-blue4;
+}
+.verse .top {
+  border-bottom: solid 6px $nord-blue4;
+}
+.chorus {
+  border: solid 3px $nord-green;
+}
+.chorus .top {
+  border-bottom: solid 6px $nord-green;
+}
+.bridge {
+  border: solid 3px $nord-yellow;
+}
+.bridge .top {
+  border-bottom: solid 6px $nord-yellow;
+}
+.solo {
+  border: solid 3px $nord-orange;
+}
+.solo .top {
+  border-bottom: solid 6px $nord-orange;
+}
+.outro {
+  border: solid 3px $nord-red;
+}
+.outro .top {
+  border-bottom: solid 6px $nord-red;
+}
+.intermission {
+  border: solid 3px $nord-blue3;
+}
+.intermission .top {
+  border-bottom: solid 6px $nord-blue3;
+}

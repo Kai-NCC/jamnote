@@ -1,0 +1,39 @@
+// Setlist //////////////////////////////////////
+
+.setlist {
+  padding: 20px 40px 0px 0px;
+  margin-left: 20px;
+
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 0px;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 20px;
+    margin-bottom: 40px;
+  }
+
+  li {
+    font-size: 1.375rem;
+    margin-bottom: 10px;
+  }
+
+  li > a {
+    text-decoration: none;
+    color: $nord-light1;
+    background-image: linear-gradient($nord-light3, $nord-light3);
+    background-size: 0% 0.1em;
+    background-position-y: 100%;
+    background-position-x: 0%;
+    background-repeat: no-repeat;
+    transition: background-size 0.15s ease-in-out;
+
+    &:hover {
+      color: $nord-light3;
+      text-decoration: none;
+      background-size: 100% 0.1em;
+    }
+  }
+}

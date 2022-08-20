@@ -1,0 +1,38 @@
+// Global styles and imports ////////////////////
+
+@import "components/nord-theme", "components/sections", "components/setlist",
+  "components/song";
+
+body {
+  font-family: "Mulish", sans-serif;
+  background-color: $nord-dark1;
+  color: $nord-light2;
+}
+
+h1 {
+  display: block;
+  margin-left: 10px;
+  width: 100%;
+}
+
+a {
+  color: $nord-blue2;
+}
+a:hover {
+  color: $nord-blue1;
+}
+
+.home-link {
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 20px;
+  margin: 10px;
+  color: $nord-light1;
+  background-color: $nord-dark4;
+  text-decoration: none;
+  transition: 0.15s;
+
+  &:hover {
+    color: $nord-light3;
+  }
+}

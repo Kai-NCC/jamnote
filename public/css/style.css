@@ -1,0 +1,159 @@
+.intro {
+  border: solid 3px #b48ead;
+}
+
+.intro .top {
+  border-bottom: solid 6px #b48ead;
+}
+
+.verse {
+  border: solid 3px #5e81ac;
+}
+
+.verse .top {
+  border-bottom: solid 6px #5e81ac;
+}
+
+.chorus {
+  border: solid 3px #a3be8c;
+}
+
+.chorus .top {
+  border-bottom: solid 6px #a3be8c;
+}
+
+.bridge {
+  border: solid 3px #ebcb8b;
+}
+
+.bridge .top {
+  border-bottom: solid 6px #ebcb8b;
+}
+
+.solo {
+  border: solid 3px #d08770;
+}
+
+.solo .top {
+  border-bottom: solid 6px #d08770;
+}
+
+.outro {
+  border: solid 3px #bf616a;
+}
+
+.outro .top {
+  border-bottom: solid 6px #bf616a;
+}
+
+.intermission {
+  border: solid 3px #81a1c1;
+}
+
+.intermission .top {
+  border-bottom: solid 6px #81a1c1;
+}
+
+.setlist {
+  padding: 20px 40px 0px 0px;
+  margin-left: 20px;
+}
+.setlist h3 {
+  font-size: 2rem;
+  margin-bottom: 0px;
+}
+.setlist ul {
+  list-style: none;
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+.setlist li {
+  font-size: 1.375rem;
+  margin-bottom: 10px;
+}
+.setlist li > a {
+  text-decoration: none;
+  color: #d8dee9;
+  background-image: linear-gradient(#eceff4, #eceff4);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  transition: background-size 0.15s ease-in-out;
+}
+.setlist li > a:hover {
+  color: #eceff4;
+  text-decoration: none;
+  background-size: 100% 0.1em;
+}
+
+.song {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: flex-start;
+}
+
+.card {
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  color: #eceff4;
+  background-color: #3b4252;
+}
+.card p {
+  margin: 0px 0px 10px 0px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.card .top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.card .top h1 {
+  margin: 0px 0px 10px 0px;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.card .top span {
+  font-size: 3rem;
+  margin-left: 40px;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  background-color: #2e3440;
+  color: #e5e9f0;
+}
+
+h1 {
+  display: block;
+  margin-left: 10px;
+  width: 100%;
+}
+
+a {
+  color: #88c0d0;
+}
+
+a:hover {
+  color: #8fbcbb;
+}
+
+.home-link {
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 20px;
+  margin: 10px;
+  color: #d8dee9;
+  background-color: #4c566a;
+  text-decoration: none;
+  transition: 0.15s;
+}
+.home-link:hover {
+  color: #eceff4;
+}
+
+/*# sourceMappingURL=style.css.map */
