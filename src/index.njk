@@ -1,6 +1,6 @@
 {% extends "template.njk" %}
 
-{% set title = "Home | Jamnote" %}
+{% set title = "Home" %}
 
 {% block main %}
 
@@ -14,7 +14,7 @@
       </li>
       <li><a href="/nirvana/in-bloom.html">In Bloom</a></li>
       <li><a href="/nirvana/come-as-you-are.html">Come As You Are</a></li>
-      <li><a href="/nirvana/breed.html">Breed</a></li>
+      <li><a href="{{ '/nirvana/breed/' | url }}">Breed</a></li>
       <li><a href="/nirvana/heart-shaped-box.html">Heart Shaped Box</a></li>
     </ul>
     <h3>Alice in Chains</h3>
@@ -26,6 +26,10 @@
       <li><a href="/arctic-monkeys/brianstorm.html">Brianstorm</a></li>
     </ul>
     <h3>Foo Fighters</h3>
+    <h3>Muse</h3>
+    <ul>
+      <li><a href="{{ '/muse/hysteria/' | url }}">Hysteria</a></li>
+    </ul>
     <h3>Queens of the Stone Age</h3>
     <h3>Rage Against The Machine</h3>
     <ul>
